@@ -312,20 +312,22 @@
 
 // find the area and perimeter of Rectangle 
 
-// int main(){
-//     float length,width, area, perimeter;
+int main(){
+    float length,width, area, perimeter;
 
-//     printf("enter the length of rectangle: ");
-//     scanf("%f",&length);
+    printf("enter the length of rectangle: ");
+    scanf("%f",&length);
 
-//     printf("enter the width of rectangle: ");
-//     scanf("%f",&width);
+    printf("enter the width of rectangle: ");
+    scanf("%f",&width);
 
-//     area=length * width;
-//     perimeter=2 *(length+width);
+    area=length * width;
+    perimeter=2 *(length+width);
 
-//     printf("area of Rectangle  is =%.2f \n",area);
-//     printf("perimeter of Rectangle is =%.2f \n",perimeter);
+    printf("area of Rectangle  is =%.2f \n",area);
+    printf("perimeter of Rectangle is =%.2f \n",perimeter);
 
-//     return 0;
-// }
+    return 0;
+}
+
+
