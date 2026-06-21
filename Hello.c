@@ -21,7 +21,7 @@
 
 // Second practicle
 
-/* int main(){
+int main(){
     int a=2,b=6,c;
 
     //Arithmatic operater
@@ -59,7 +59,7 @@
 
     return 0;
 
-}*/
+}
 
 // third experment
 
