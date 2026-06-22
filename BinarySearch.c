@@ -20,3 +20,16 @@ int binarySearch(int arr[], int size, int key){
     return -1; // Key not found
 }
 
+int main(){
+    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int key = 5;
+
+    int result = binarySearch(arr, size, key);
+    if(result != -1){
+        printf("Element found: %d\n", result);
+    } else {
+        printf("Element not found in the array.\n");
+    }
+    return 0;
+}
